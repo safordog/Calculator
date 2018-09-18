@@ -1,0 +1,60 @@
+
+body {
+    background-image: url("images/bright-background.png");
+}
+
+fieldset {
+    background-color: darkslategray;
+    width: 270px;
+    padding: 10px 20px;
+}
+
+#firstNum {
+    float: left;
+    position: relative;
+    width: 100px;
+}
+
+#operators {
+    float: left;
+    position: relative;
+    width: 7px;
+    padding: 0px 10px;
+    color: azure;
+}
+
+#radiochoose {
+    float: left;
+    position: relative;
+    width: 25px;
+    padding: 0px 5px;
+}
+
+#secondNum {
+    float: left;
+    position: relative;
+    width: 100px;
+}
+
+#calculate {
+    width: 80px;
+    height: 40px;
+    float: left;
+    padding: 0px 0px 0px 20px;
+}
+
+input[type=submit] {
+    background-color: orangered;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+input[type=submit]:hover {
+    opacity: 1;
+}
+
+input[type=text] {
+    width: 100%;
+}
